@@ -26,7 +26,7 @@ $ sdk install groovy 2.4.0
 
 $ sdk default groovy 2.4.5
 
-### Groovy shall - groovysh
+### Groovy shell - groovysh
 
 http://groovy-lang.org/groovysh.html
 
@@ -41,3 +41,6 @@ groovy:003>     String description
 groovy:004> }
 ===> true
 </code></pre>
+
+
+
