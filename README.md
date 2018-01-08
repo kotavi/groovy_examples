@@ -43,6 +43,24 @@ groovy:002>     String name
 groovy:003>     String description
 groovy:004> }
 ===> true
+groovy:000> license = new License()
+===> License@df4b72
+</code></pre>
+
+<pre><code>
+groovy:000> def matchTwoInputs(String arg1, String arg2) {
+groovy:001>     if (arg1 ==~ arg2) {
+groovy:002>       println "Both inputs are the same"
+groovy:003>     }
+groovy:004>     else { println "Inputs are not the same" }
+groovy:005> }
+===> true
+groovy:000> matchTwoInputs("123", "123")
+Both inputs are the same
+===> null
+groovy:000> matchTwoInputs("1231", "71237")
+Inputs are not the same
+===> null
 </code></pre>
 
 
