@@ -41,7 +41,12 @@ $ sdk version
     <td>To see all available commands in groovysh</td>
     <td><code>$ groovy:000> :h</code></td>
   </tr>
+  <tr>
+    <td>Compile groovy files with <a href="http://groovy-lang.org/groovyc.html">groovyc</a> </td>
+    <td><code>$ groovyc *.groovy</code></td>
+  </tr>
 </table>
+
 
 #### groovysh example:
 <pre><code>
