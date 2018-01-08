@@ -33,6 +33,14 @@ $ sdk version
     <td>Launch <a href="http://groovy-lang.org/groovysh.html">groovy shell</a> </td>
     <td><code>$ groovysh</code></td>
   </tr>
+  <tr>
+    <td>Change default version</td>
+    <td><code>$ sdk default groovy 2.4.5</code></td>
+  </tr>
+  <tr>
+    <td>To see all available commands in groovysh</td>
+    <td><code>$ groovy:000> :h</code></td>
+  </tr>
 </table>
 
 #### groovysh example:
