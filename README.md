@@ -4,35 +4,38 @@
 
 http://sdkman.io/
 
+<pre><code>
 $ curl -s "https://get.sdkman.io" | bash
-
 $ source "$HOME/.sdkman/bin/sdkman-init.sh"
-
 $ sdk version
+</code></pre>
 
-*To list candidates*
 
-$ sdk list
+#### SDK commands
+<table>
+  <tr>
+    <td>To list candidates</td>
+    <td><code>$ sdk list</code></td>
+  </tr>
+  <tr>
+    <td>To list a specific candidate</td>
+    <td><code>$ sdk list groovy</code></td>
+  </tr>   
+  <tr>
+    <td>To install a specific version of Groovy</td>
+    <td><code>$ sdk install groovy 2.4.0</code></td>
+  </tr>
+  <tr>
+    <td>Change default version</td>
+    <td><code>$ sdk default groovy 2.4.5</code></td>
+  </tr>
+  <tr>
+    <td>Launch <a href="http://groovy-lang.org/groovysh.html">groovy shell</a> </td>
+    <td><code>$ groovysh</code></td>
+  </tr>
+</table>
 
-*To list a specific candidate*
-
-$ sdk list groovy
-
-*To install a specific version of Groovy*
-
-$ sdk install groovy 2.4.0
-
-*Change default version*
-
-$ sdk default groovy 2.4.5
-
-### Groovy shell - groovysh
-
-http://groovy-lang.org/groovysh.html
-
-$ groovysh
-
-Example:
+#### groovysh example:
 <pre><code>
 groovy:000> class License {
 groovy:001>     String id
