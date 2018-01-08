@@ -33,11 +33,11 @@ http://groovy-lang.org/groovysh.html
 $ groovysh
 
 Example:
-<code>
+<pre><code>
 groovy:000> class License {
 groovy:001>     String id
 groovy:002>     String name
 groovy:003>     String description
 groovy:004> }
 ===> true
-</code>
+</code></pre>
