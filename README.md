@@ -45,8 +45,11 @@ $ sdk version
     <td>Compile groovy files with <a href="http://groovy-lang.org/groovyc.html">groovyc</a> </td>
     <td><code>$ groovyc *.groovy</code></td>
   </tr>
+  <tr>
+    <td>groovy <a href="http://groovy-lang.org/groovyconsole.html">console</a> </td>
+    <td><code>$ groovyConsole</code></td>
+  </tr>
 </table>
-
 
 #### groovysh example:
 <pre><code>
