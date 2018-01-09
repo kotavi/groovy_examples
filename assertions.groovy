@@ -8,3 +8,6 @@ assert 5 == '5'.toInteger()
 def x = [1,2,3,4,5]
 assert (x << 6) == [1,2,3,4,5,6]
 print x
+
+
+assert "John Doe" == "john dOE".tokenize(" ")*.toLowerCase()*.capitalize().join(" ")
