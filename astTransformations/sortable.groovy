@@ -1,4 +1,3 @@
-import com.thoughtworks.xstream.mapper.Mapper
 import groovy.transform.Sortable
 import groovy.transform.ToString
 

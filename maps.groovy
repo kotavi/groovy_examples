@@ -4,6 +4,9 @@ def map = [:]
 //LinkedHashMap map = [:]
 println map
 println map.getClass().getName()
+map["key1"] = 34
+map.put('thickness', 10)
+println map
 
 def person = [first:"Tanya", last: "Korchak", email:"kotavi@i.ua"]
 println person
