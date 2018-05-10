@@ -44,3 +44,14 @@ try {
 }
 
 println account1.balance
+
+
+def text = "Now that we have our class let's test it out."
+
+def result = (text.contains("test")) ? "hello" : "nothing"
+println result
+result = (text.contains("test")) ? "hello" : null
+println result
+
+result = (text.contains("testing")) ?: "nothing"
+println result

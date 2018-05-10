@@ -51,8 +51,6 @@ static boolean passSpecial(data) {
 //It contains at least one uppercase English character.
 //It contains at least one special character. The special characters are: !@#$%^&*()-+
 
-
-
 def result = { data, count ->
     def input1 = passSize(data, count)
     def input2 = passDigit(data)
@@ -77,10 +75,3 @@ def result = { data, count ->
     }
 }
 println result(password, n)
-//12
-//TheBest7
-//4
-
-//11
-//#HackerRank
-//1
